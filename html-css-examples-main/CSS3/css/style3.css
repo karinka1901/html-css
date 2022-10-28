@@ -1,0 +1,40 @@
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    background-color: plum;
+    width: 40%;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: plum;
+}
+
+li a {
+    background-color: plum;
+    color: bisque;
+    width: 10em;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+}
+
+li a:hover {
+    background-color:rgb(225, 182, 225);
+}
+
+something

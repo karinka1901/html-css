@@ -1,0 +1,18 @@
+p {
+    font-size: 1rem;
+    color:lightcoral;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+#id-example {
+    color: olivedrab;
+}
+
+.class-example {
+    color: blue;
+}
+
+li>a {
+    color: goldenrod;
+}

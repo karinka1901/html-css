@@ -1,0 +1,32 @@
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color:plum;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:deeppink ;
+}
+
+li:a hover::after {
+    content: ' #';
+}
+
+main    {
+    background-color: rgb(227, 191, 227);
+}
+
+footer {
+    background-color:rgb(193, 146, 201) ;
+}
