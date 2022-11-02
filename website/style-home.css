@@ -1,6 +1,6 @@
 .container {
     height: 100vh;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -11,12 +11,9 @@ html {
 body  {
     margin: 0;
     background-repeat: no-repeat;
+    
 
   }
-
-/* div {
- height: 100vh;
-} */
 
 header {
     display: flex;
@@ -46,14 +43,14 @@ header {
   
     li  {
         display: inline;
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 5px;
         margin-right: 5px;
         }
 
     li a {
         color: beige;
-        width: 5em;
+        width: 100%;
         height: 3rem;
         display: block;
         text-align: center;
@@ -74,20 +71,10 @@ main {
     padding-bottom: 10rem;
 }
 
-.centered-element {
- 
-    margin: 0;
-    position: relative;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
 section {
     text-align: center;
     width: 100%;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+
 }
 
 img {
@@ -113,4 +100,19 @@ article {
     font-size: 20px;
     padding: 1rem;
     box-sizing: border-box;
+}
+
+@media screen and (min-width:769px) {
+    .container
+    {
+        width: 80%;
+    }
+
+        li {
+            font-size: 20px;
+        }    
+    
+        li a {
+            width: 5rem;
+        }
 }

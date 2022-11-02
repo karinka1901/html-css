@@ -1,6 +1,6 @@
 .container {
     height: 100vh;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -41,14 +41,14 @@ header {
   
     li  {
         display: inline;
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 5px;
         margin-right: 5px;
         }
 
     li a {
         color: beige;
-        width: 5em;
+        width: 100%;
         height: 3rem;
         display: block;
         text-align: center;
@@ -67,7 +67,8 @@ main {
     justify-content: space-between;
     align-items: center;
     width: auto;
-    padding-bottom: 10%;
+    padding-bottom: 70%;
+    height: auto;
    
 }
 
@@ -85,14 +86,15 @@ section {
 figure {
     float: left;
     margin: 0 1rem 1rem 0;
-    /* border: 8px solid #3f0238; */
     background-color: #3f023800;
     padding: 1rem;
-    margin-right: 10rem;
     display: flex;
     width: 100%;
 }
 
+form {
+    color: bisque;
+}
 
 h2 {
     color: bisque;
@@ -150,8 +152,9 @@ input[type=email], select, textarea {
 
   footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content:center;
-    align-items: center;
+    align-items: center; 
     width: auto;
     background-color: #3f0238;
     top: 50%;
@@ -162,6 +165,12 @@ input[type=email], select, textarea {
     font-size: 15px;
     padding-left: 3rem;
     text-align: center;
+    margin: 1rem;
+    /* height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%; */
 
 }
 
@@ -179,4 +188,24 @@ input[type=email], select, textarea {
     height:100%;
     width:100%;
     position:relative;  
+    }
+
+    @media screen and (min-width:769px) {
+        .container
+        {
+            width: 80%;
+        }
+    
+            li {
+                font-size: 20px;
+            }    
+        
+            li a {
+                width: 5rem;
+            }
+            main {
+                padding-bottom: 20%;
+            }
+            
+    
     }
