@@ -1,0 +1,222 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://thumbs.dreamstime.com/b/kawaii-elements-set-gamer-girl-s-game-cute-vector-seamless-pattern-kawaii-seamless-pattern-gamer-girl-s-game-vector-252847615.jpg");
+  
+   
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    white-space: nowrap;
+    background-color: rgb(139,97,196);
+    padding: 1rem;
+    height: 3rem;
+  }
+  h1 {
+    display: inline-block;
+    color:  whitesmoke;
+    font-size: 50px;
+  }
+  nav {
+    display: inline-block;
+  }
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
+        }
+  
+    li  {
+        display: inline;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        }
+
+    li a {
+        color:  whitesmoke;;
+        width: 100%;
+        height: 3rem;
+        display: block;
+        text-align: center;
+        line-height: 3rem;
+        text-decoration: none;
+        }
+        
+    li a:hover {
+        background-color:rgb(142, 25, 210);
+        }
+
+main {
+    background-color:  rgba(193, 160, 247, 0.851);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding-bottom: 70%;
+    height: auto;
+   
+}
+
+
+
+section {
+    padding-left: 3%;
+    padding-top: 5rem;
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    float: left;
+    margin: 0 1rem 1rem 0;
+    background-color: #3f023800;
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+}
+
+form {
+    color:  whitesmoke;
+}
+
+h2 {
+    color: #560085;
+}
+
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    padding-right: 10%;
+    border: 1px solid rgb(251, 246, 246);
+    background-color: rgba(138, 97, 196, 0.595);
+    color: whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(251, 246, 246);
+    background-color: rgba(138, 97, 196, 0.595);
+    color: whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=password]{
+    width: 100%;
+    padding: 12px;
+    padding-bottom: 25%;
+    border: 1px solid rgb(251, 246, 246);
+    background-color: rgba(138, 97, 196, 0.595);
+    color: whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    resize: vertical;
+
+  }
+
+  ::placeholder {
+    color: whitesmoke;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(138, 97, 196);
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 1px solid  whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center; 
+    width: auto;
+    background-color: rgb(139,97,196);
+    top: 50%;
+  }
+
+  article {
+    color: whitesmoke;
+    font-size: 15px;
+    padding-left: 3rem;
+    text-align: center;
+    margin: 1rem;
+    /* height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%; */
+
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    margin-left: 8%;
+    position:relative;
+    width: 100%;
+    height:100%;
+    }
+    .map-responsive iframe{
+    left: 0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:relative;  
+    }
+
+
+    @media screen and (min-width:769px) {
+        .container
+        {
+            width: 80%;
+        }
+    
+            li {
+                font-size: 20px;
+            }    
+        
+            li a {
+                width: 5rem;
+            }
+            main {
+                padding-bottom: 20%;
+            }
+            
+    
+    }
